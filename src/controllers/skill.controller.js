@@ -1,6 +1,6 @@
 import Skill from "../models/skill.model.js";
-import apiError from "../utils/apiError.js";
-import catchAsync from "../utils/catchAsync.js";
+import apiError from "../utils/api-error.js";
+import catchAsync from "../utils/catch-async.js";
 
 // Create a new skill
 export const createSkill = catchAsync(async (req, res, next) => {

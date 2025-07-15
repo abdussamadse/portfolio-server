@@ -1,8 +1,8 @@
 import User from "../models/user.model.js";
-import generateAndSendOtp from "../utils/generateAndSendOtp.js";
-import apiError from "../utils/apiError.js";
-import catchAsync from "../utils/catchAsync.js";
-import generateToken from "../utils/generateToken.js";
+import generateToken from "../utils/generate-token.js";
+import apiError from "../utils/api-error.js";
+import catchAsync from "../utils/catch-async.js";
+import generateToken from "../utils/generate-token.js";
 import bcrypt from "bcryptjs";
 import { cloudinaryImageUpload } from "../utils/cloudinary.js";
 

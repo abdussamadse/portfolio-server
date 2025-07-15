@@ -1,6 +1,6 @@
 import Project from "../models/project.model.js";
-import catchAsync from "../utils/catchAsync.js";
-import apiError from "../utils/apiError.js";
+import catchAsync from "../utils/catch-async.js";
+import apiError from "../utils/api-error.js";
 import { cloudinaryImageUpload } from "../utils/cloudinary.js";
 
 // Create Project

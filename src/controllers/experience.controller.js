@@ -1,6 +1,6 @@
 import Experience from "../models/experience.model.js";
-import apiError from "../utils/apiError.js";
-import catchAsync from "../utils/catchAsync.js";
+import apiError from "../utils/api-error.js";
+import catchAsync from "../utils/catch-async.js";
 
 // Create a new experience
 export const createExperience = catchAsync(async (req, res, next) => {

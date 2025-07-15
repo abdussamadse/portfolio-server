@@ -8,7 +8,7 @@ import helmet from "helmet";
 import mongoSanitize from "express-mongo-sanitize";
 import rateLimit from "express-rate-limit";
 import morgan from "morgan";
-import connectDB from "./db/connectDB.js";
+import connectDB from "./db/connect-db.js";
 import {
   globalErrorHandler,
   notFoundMiddleware,
