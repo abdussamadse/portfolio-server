@@ -10,7 +10,7 @@ const sendEmail = async (emailTo, emailSubject, emailText) => {
   });
 
   let mailOption = {
-    from: `Onestopmtb <${process.env.RECIPIENT_EMAIL}>`,
+    from: `Portfolio <${process.env.RECIPIENT_EMAIL}>`,
     to: emailTo,
     subject: emailSubject,
     text: emailText,

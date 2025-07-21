@@ -17,6 +17,7 @@ import userRoutes from "./routes/user.routes.js";
 import projectRoutes from "./routes/project.routes.js";
 import skillRoutes from "./routes/skill.routes.js";
 import experienceRoutes from "./routes/experience.routes.js";
+import contactRoutes from "./routes/contact.route.js";
 
 const app = express();
 
@@ -78,6 +79,7 @@ app.use("/api/v1/users", userRoutes);
 app.use("/api/v1/projects", projectRoutes);
 app.use("/api/v1/skills", skillRoutes);
 app.use("/api/v1/experiences", experienceRoutes);
+app.use("/api/v1/contacts", contactRoutes);
 
 // Catch all undefined routes and forward them to the error handler
 app.all("*", notFoundMiddleware);

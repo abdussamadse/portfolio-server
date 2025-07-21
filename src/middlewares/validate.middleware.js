@@ -1,4 +1,4 @@
-import apiError from "../utils/apiError.js";
+import apiError from "../utils/api-error.js";
 
 export const validate = (schema) => (req, res, next) => {
   const { error } = schema.validate(req.body);
