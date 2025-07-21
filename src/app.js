@@ -33,7 +33,7 @@ const limiter = rateLimit({
 });
 
 // Allowed origins for CORS
-const allowedOrigins = ["*", "http://localhost:5173", "http://localhost:5174"];
+const allowedOrigins = ["*", "http://localhost:5173", "http://localhost:5174", "https://abdussamadse.vercel.app"];
 app.use(
   cors({
     origin: function (origin, callback) {
